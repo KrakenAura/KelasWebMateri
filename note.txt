@@ -1,0 +1,6 @@
+Upload ke github
+
+1. Mengambil data dari Bootstrap -> Packagist lewat composer
+2. Web Development -> Front-end -> Bootstrap
+3. 3 halaman (Home, Formulir, Table)
+4. Domain free (000webhost,github,heroku)

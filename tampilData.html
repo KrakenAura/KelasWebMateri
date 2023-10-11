@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf -8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Membuat Template Website Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Bagian Header -->
+      <div class="row">
+        <div class="col-md-12 header" id="site-header">
+          <header>
+            <h1 class="title-site">Belajar Bootstrap</h1>
+            <p class="description">
+              Belajar Membuat Template Website Dengan Bootstrap
+            </p>
+          </header>
+          <nav class="menus">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Portofolio</a></li>
+              <li><a href="form.html">Forms</a></li>
+              <li><a href="tampilData.html">Tampil Data</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 articles" id="site-content">
+          <button type="button" class="btn btn-primary mb-3 mt-3">
+            Tambah Data
+          </button>
+          <table class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th>Nama Belakang</th>
+                <th>Nama Email</th>
+                <th>Jurusan</th>
+                <th>Aksi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Andi Purnomo</td>
+                <td>andy@umm.ac.id</td>
+                <td>Teknik Informatika</td>
+                <td>
+                  <button type="button" class="btn btn-info">Edit</button>
+                  <button type="button" class="btn btn-success">Detail</button>
+                  <button type="button" class="btn btn-danger">Hapus</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Bagus Wardana</td>
+                <td>bagus@umm.ac.id</td>
+                <td>Teknik Informatika</td>
+                <td>
+                  <button type="button" class="btn btn-info">Edit</button>
+                  <button type="button" class="btn btn-success">Detail</button>
+                  <button type="button" class="btn btn-danger">Hapus</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Mabadi'ul Hasan</td>
+                <td>hasan@umm.ac.id</td>
+                <td>Teknik Informatika</td>
+                <td>
+                  <button type="button" class="btn btn-info">Edit</button>
+                  <button type="button" class="btn btn-success">Detail</button>
+                  <button type="button" class="btn btn-danger">Hapus</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="col-md-4 sidebar" id="site-sidebar">
+          <aside class="widgets">
+            <h3 class="widget-title">Menu</h3>
+            <ul>
+              <li><a href="#">Olahraga</a></li>
+              <li><a href="#">Politik</a></li>
+              <li><a href="#">Hiburan</a></li>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Sepakbola</a></li>
+            </ul>
+          </aside>
+          <aside class="widgets">
+            <h3 class="widget-title">Berita Terbaru</h3>
+            <ul>
+              <li>
+                <a href="#">Suzuki Masih Fokus Bangun Tim Utama di MotoGP</a>
+              </li>
+              <li>
+                <a href="#"
+                  >Piala AFF U-22, Anda Yakin Timnas Indonesia Mampu Kalahkah
+                  Kamboja?</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  >Shin Tae-yong Komentari Isu Perpanjangan Kontraknya sebagai
+                  Pelatih Timnas Indonesia</a
+                >
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 footer" id="site-footer">
+          <footer class="copyright text-center">
+            <p>&copy; 2015 onphpid.com</p>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
